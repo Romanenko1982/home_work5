@@ -27,5 +27,7 @@ public class Main {
         15.0);
     Man man = new Man("Golubkov", "Lenia", 40, Sport.RUN, "actor");
     System.out.println();
+
+    System.out.println(car5);
   }
 }

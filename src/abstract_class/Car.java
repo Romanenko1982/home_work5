@@ -42,9 +42,9 @@ public abstract class Car implements Movable {
   @Override
   public String toString() {
     StringBuilder str = new StringBuilder();
-    str.append("foo.Car brand - ").append(brand).append(", typeCar - ").append(typeCar)
+    str.append("Car brand - ").append(brand).append(", typeCar - ").append(typeCar)
         .append(", color - ").append(color).append(", date of made - ").append(convertToString())
-        .append(", speed - ").append(speed).append(" км/ч");
+        .append(", speed - ").append(speed).append(" км/ч, ");
     return str.toString();
   }
 

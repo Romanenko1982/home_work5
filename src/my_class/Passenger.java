@@ -56,7 +56,9 @@ public class Passenger extends Car {
 
   @Override
   public String toString() {
-    return super.toString() + "accelerator - " + accelerator;
+    StringBuilder str = new StringBuilder(super.toString());
+    str.append("accelerator - ").append( accelerator);
+    return str.toString();
   }
 
   @Override

@@ -55,7 +55,9 @@ public class Truck extends Car {
 
   @Override
   public String toString() {
-    return super.toString() + "capacity - " + capacity;
+    StringBuilder str = new StringBuilder(super.toString());
+    str.append("capacity - ").append(capacity);
+    return str.toString();
   }
 
   @Override
